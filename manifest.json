@@ -1,13 +1,13 @@
 {
     "name":  "TCL Bridge",
-    "version":  "1.1.0",
+    "version":  "1.1.1",
     "builds":  [
                    {
                        "chipFamily":  "ESP32-S3",
                        "ota":  {
-                                   "path":  "firmware/tcl-bridge-1.1.0.ota.bin",
-                                   "md5":  "48b8ee3fc49e7717b234ad166fc0a58b",
-                                   "summary":  "VPN WireGuard settings on the bridge page"
+                                   "path":  "firmware/tcl-bridge-1.1.1.ota.bin",
+                                   "md5":  "402a361b31feabf339a748822c358a7f",
+                                   "summary":  "Service page: restart / reset also in access-point mode"
                                }
                    }
                ]
