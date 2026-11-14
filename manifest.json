@@ -1,0 +1,14 @@
+{
+    "name":  "TCL Bridge",
+    "version":  "1.0.2",
+    "builds":  [
+                   {
+                       "chipFamily":  "ESP32-S3",
+                       "ota":  {
+                                   "path":  "firmware/tcl-bridge-1.0.2.ota.bin",
+                                   "md5":  "67816b975a6405f7dcb376bec3a20d9f",
+                                   "summary":  "Self-clean, louvers, fan speeds, display light; updates from GitHub"
+                               }
+                   }
+               ]
+}
