@@ -1,13 +1,13 @@
 {
     "name":  "TCL Bridge",
-    "version":  "1.1.2",
+    "version":  "1.1.3",
     "builds":  [
                    {
                        "chipFamily":  "ESP32-S3",
                        "ota":  {
-                                   "path":  "firmware/tcl-bridge-1.1.2.ota.bin",
-                                   "md5":  "c4efe329f20b54350702c2671cccd86d",
-                                   "summary":  "VPN WireGuard: paste the whole client config file"
+                                   "path":  "firmware/tcl-bridge-1.1.3.ota.bin",
+                                   "md5":  "c3a2e02990fb82aacfee72e1be2e7c97",
+                                   "summary":  "Reboot line on the access-point page"
                                }
                    }
                ]
