@@ -1,13 +1,13 @@
 {
     "name":  "TCL Bridge",
-    "version":  "1.1.4",
+    "version":  "1.1.5",
     "builds":  [
                    {
                        "chipFamily":  "ESP32-S3",
                        "ota":  {
-                                   "path":  "firmware/tcl-bridge-1.1.4.ota.bin",
-                                   "md5":  "be42a09c0911b265aabebe7801e72ccb",
-                                   "summary":  "VPN WireGuard: load the client .conf file from the form"
+                                   "path":  "firmware/tcl-bridge-1.1.5.ota.bin",
+                                   "md5":  "e61caa5113aaca5b9d53f4adda3d2c2b",
+                                   "summary":  "Fix: an update is no longer rolled back when the bridge is restarted in its first minute"
                                }
                    }
                ]
