@@ -8,6 +8,31 @@ The newest version is on top. The bridge checks for updates once a day; install 
 
 ---
 
+## 1.1.7 — 2026-11-15
+
+- **Кондиціонери з протоколом A5** (наприклад, TCL SaveIn 09ZG11) тепер мають повне керування:
+  швидкість вентилятора (авто, 1–6, турбо), жалюзі вгору-вниз і вліво-вправо (гойдання та
+  фіксовані положення), ECO, здоровий режим, підсвітка дисплея, звук, режим сну, обігрів +8 °C.
+  Стан, зокрема положення жалюзі, читається з кондиціонера.
+- **Пульт на сторінці моста показується завжди.** Поки кондиціонер не повідомив стан, кнопки
+  неактивні й над ними видно «Зʼєднуюсь із кондиціонером…»; раніше пульт зникав повністю.
+- **Виправлено:** на A5 поле «Протокол» могло лишатися порожнім, і сторінка писала «Шукаю
+  кондиціонер…» при живому звʼязку.
+- Поки протокол не визначено, міст нічого не надсилає кондиціонеру — команда чекає.
+- Жалюзі й режим сну більше не надсилають у Home Assistant той самий стан щосекунди.
+
+- **A5-protocol air conditioners** (e.g. TCL SaveIn 09ZG11) now have full control: fan speed (auto,
+  1–6, turbo), up-down and left-right louvers (swing and fixed positions), ECO, healthy mode,
+  display light, beep, sleep mode, +8 °C heating. The state, louver position included, is read
+  from the AC.
+- **The remote on the bridge page is always shown.** Until the AC reports its state the
+  controls are inactive with "Connecting to the air conditioner…" above them; before, the
+  remote disappeared completely.
+- **Fixed:** on A5 the "Protocol" field could stay empty and the page said "Searching for the
+  AC…" while the link was alive.
+- Until the protocol is known the bridge sends nothing to the AC — the command waits.
+- Louvers and sleep mode no longer send the same state to Home Assistant every second.
+
 ## 1.1.6 — 2026-11-15
 
 - Нові функції: **ECO**, **здоровий режим**, **режим сну** (стандартний, для літніх людей, для
