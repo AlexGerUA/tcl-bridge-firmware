@@ -1,13 +1,13 @@
 {
     "name":  "TCL Bridge",
-    "version":  "1.1.7",
+    "version":  "1.1.8",
     "builds":  [
                    {
                        "chipFamily":  "ESP32-S3",
                        "ota":  {
-                                   "path":  "firmware/tcl-bridge-1.1.7.ota.bin",
-                                   "md5":  "d2636b5ac85304d6a5b548f80d420a2b",
-                                   "summary":  "New: full A5 control (fan 1-6, turbo, louvers, ECO, healthy, light, beep, sleep, +8 C); remote always shown; protocol field fix. See CHANGELOG.md"
+                                   "path":  "firmware/tcl-bridge-1.1.8.ota.bin",
+                                   "md5":  "2832bcac93742baf1fcbfd970478bae5",
+                                   "summary":  "New: 0.5 C setpoint steps; A5 generator mode L1-L6 and evaporator self-clean; A5 limiter report fix. See CHANGELOG.md"
                                }
                    }
                ]

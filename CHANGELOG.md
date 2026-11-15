@@ -8,6 +8,27 @@ The newest version is on top. The bridge checks for updates once a day; install 
 
 ---
 
+## 1.1.8 — 2026-11-15
+
+- **Уставка з кроком 0,5 °C** на всіх кондиціонерах (сторінка моста й Home Assistant). Міст тепер
+  показує справжню уставку з пів градусом — раніше ці пів градуса (поставлені пультом чи додатком)
+  не було видно, а нова команда моста їх не знімала.
+- **Режим генератора** для кондиціонерів з протоколом A5: обмеження струму L1–L6 (30–80 %), для роботи
+  від генератора чи слабкої мережі. Діє, коли кондиціонер увімкнено.
+- **Самоочищення випарника** для кондиціонерів з протоколом A5: кнопка й стан на сторінці та в Home Assistant.
+- **Виправлено:** на A5 звіт, у якому кондиціонер повідомляє про роботу обмежувача струму, міг читатися
+  не до кінця.
+- Детальний журнал змін полів шини — лише з увімкненою діагностикою (Diag).
+
+- **Setpoint in 0.5 °C steps** on all air conditioners (bridge page and Home Assistant). The bridge now
+  shows the real setpoint including the half degree — before, a half degree set by the remote or the app
+  was not shown and the bridge's next command did not clear it.
+- **Generator mode** for A5-protocol air conditioners: current limit L1–L6 (30–80 %) for running on a
+  generator or a weak grid. Works while the AC is on.
+- **Evaporator self-clean** for A5-protocol air conditioners: button and state on the page and in Home Assistant.
+- **Fixed:** on A5, a report announcing the current limiter could be read only partially.
+- The detailed log of bus field changes now appears only with diagnostics (Diag) on.
+
 ## 1.1.7 — 2026-11-15
 
 - **Кондиціонери з протоколом A5** (наприклад, TCL SaveIn 09ZG11) тепер мають повне керування:
