@@ -8,6 +8,24 @@ The newest version is on top. The bridge checks for updates once a day; install 
 
 ---
 
+## 1.1.9 — 2026-11-15
+
+- **Розклад** — нова вкладка між «Пульт» і «Home Assistant». До 10 сценаріїв: «увімкнути на період»
+  (дні тижня, час увімкнення й вимкнення, режим, температура, вентилятор — кожне можна лишити «без змін»)
+  або «лише вимкнути» в заданий час. Сценарії, що перетинаються, сторінка не дасть зберегти й покаже, з
+  яким сценарієм конфлікт. Розклад виконує сам міст — без інтернету й хмари; час береться з інтернету,
+  часовий пояс вибирається на вкладці. Між увімкненням і вимкненням кондиціонером можна керувати як завжди.
+- У Home Assistant — перемикач «Schedule enabled» (увімкнути чи вимкнути весь розклад разом).
+- Вкладка «VPN WireGuard»: кнопка вибору файлу .conf стала помітною й рівною з іншими.
+
+- **Schedule** — a new tab between "Remote" and "Home Assistant". Up to 10 scenarios: "on for a period"
+  (weekdays, on and off time, mode, temperature, fan — each can be left "no change") or "off only" at a
+  set time. Overlapping scenarios cannot be saved; the page shows which scenario is in the way. The
+  bridge runs the schedule itself — no internet or cloud needed; time comes from the internet, the time
+  zone is chosen on the tab. Between on and off you can control the AC as usual.
+- In Home Assistant — a "Schedule enabled" switch (turn the whole schedule on or off).
+- "VPN WireGuard" tab: the .conf file button is now easy to see and lined up with the others.
+
 ## 1.1.8 — 2026-11-15
 
 - **Уставка з кроком 0,5 °C** на всіх кондиціонерах (сторінка моста й Home Assistant). Міст тепер
