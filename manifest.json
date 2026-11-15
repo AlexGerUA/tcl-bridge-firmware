@@ -1,13 +1,13 @@
 {
     "name":  "TCL Bridge",
-    "version":  "1.1.5",
+    "version":  "1.1.6",
     "builds":  [
                    {
                        "chipFamily":  "ESP32-S3",
                        "ota":  {
-                                   "path":  "firmware/tcl-bridge-1.1.5.ota.bin",
-                                   "md5":  "e61caa5113aaca5b9d53f4adda3d2c2b",
-                                   "summary":  "Fix: an update is no longer rolled back when the bridge is restarted in its first minute"
+                                   "path":  "firmware/tcl-bridge-1.1.6.ota.bin",
+                                   "md5":  "bec0cda3ec2e4b1e34d69dedb81c7218",
+                                   "summary":  "New: ECO, healthy, sleep modes, gentle wind, +8 C heating; fixed self-clean and lowest fan speed. See CHANGELOG.md"
                                }
                    }
                ]

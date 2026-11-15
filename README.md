@@ -3,6 +3,8 @@
 Готові прошивки моста TCL Bridge для оновлення «по повітрю».
 Firmware builds for the TCL Bridge, used for over-the-air updates.
 
+Що змінилось у кожній версії — [CHANGELOG.md](CHANGELOG.md). / What changed in each version — [CHANGELOG.md](CHANGELOG.md).
+
 ## Як оновлюється міст / How the bridge updates
 
 - Міст раз на добу читає `manifest.json` із цього репозиторію.
